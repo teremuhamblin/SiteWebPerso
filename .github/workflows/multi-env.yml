@@ -2,7 +2,7 @@ name: Multi-Env Deploy
 
 on:
   push:
-    branches: [ "main", "dev" ]
+    branches: [ "main", "dev", "test" ]
 
 permissions:
   contents: read
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prepare build
+      - name: Build site
         run: |
           mkdir build
           cp -r ./* build/
@@ -25,16 +25,26 @@ jobs:
         with:
           path: build
 
-  deploy-dev:
-    if: github.ref == 'refs/heads/dev'
+  deploy-user:
+    if: github.ref == 'refs/heads/main'
     needs: build
+    environment: user
     runs-on: ubuntu-latest
     steps:
       - uses: actions/deploy-pages@v4
 
-  deploy-prod:
-    if: github.ref == 'refs/heads/main'
+  deploy-test:
+    if: github.ref == 'refs/heads/test'
     needs: build
+    environment: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
+
+  deploy-dev:
+    if: github.ref == 'refs/heads/dev'
+    needs: build
+    environment: dev
     runs-on: ubuntu-latest
     steps:
       - uses: actions/deploy-pages@v4
