@@ -1,15 +1,15 @@
 ```text
-/README_BOTS.md
+/README_Bots.md
 
 Ou simplement :
 
-/docs/README_BOTS.md
+/docs/README_Bots.md
 ```
 
 >Selon ton organisation.
 
 ---
-
+# Dependabot
 ### 🛡️ Tactical Bot Operations Manual
 ### 🎯 Mission
 ```rst
@@ -44,108 +44,113 @@ Activé — Mode Weekly / Daily
 - Analyse la sécurité  
 - Valide les modules avant déploiement
 
-📁 Fichier
-.github/workflows/ci.yml
+### 📁 Fichier
+*.github/workflows/ci.yml*
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Surveillance Continue
 
 ---
 
-🔍 3. CODEQL — Analyse de Sécurité Avancée
+### 🔍 3. CODEQL
+- Analyse de Sécurité Avancée
 
-🎖️ Rôle
+### 🎖️ Rôle
 - Analyse statique du code  
 - Détection de vulnérabilités  
 - Rapport tactique automatique
 
-📁 Fichier
-.github/workflows/codeql.yml
+### 📁 Fichier
+*.github/workflows/codeql.yml*
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Audit Hebdomadaire
 
 ---
 
-♻️ 4. RENOVATE — Optimisation Automatisée
+### ♻️ 4. RENOVATE
+- Optimisation Automatisée
 
-🎖️ Rôle
+### 🎖️ Rôle
 - Regroupe les mises à jour  
 - Automerge intelligent  
 - Réduction du bruit dans les PR
 
-📁 Fichier
-renovate.json
+### 📁 Fichier
+*renovate.json*
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Optimisation
 
 ---
 
-👥 5. ALL-CONTRIBUTORS BOT — Gestion des Contributeurs
+### 👥 5. ALL-CONTRIBUTORS BOT
+- Gestion des Contributeurs
 
-🎖️ Rôle
+### 🎖️ Rôle
 - Ajoute automatiquement les contributeurs  
 - Met à jour README.md et CONTRIBUTORS.md  
 - Gère les avatars, rôles, badges
 
-📁 Fichier
-.all-contributorsrc
+### 📁 Fichier
+*.all-contributorsrc*
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Automatique
 
 ---
 
-🛡️ 6. DANGER JS — Revue PR Tactique
+### 🛡️ 6. DANGER JS
+- Revue PR Tactique
 
-🎖️ Rôle
+### 🎖️ Rôle
 - Analyse les Pull Requests  
 - Détecte les modifications sensibles  
 - Ajoute des avertissements automatiques
 
-📁 Fichier
-dangerfile.js
+### 📁 Fichier
+*dangerfile.js*
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Surveillance
 
 ---
 
-🚀 7. RELEASE-PLEASE — Versioning Automatique
+### 🚀 7. RELEASE-PLEASE
+- Versioning Automatique
 
-🎖️ Rôle
+### 🎖️ Rôle
 - Génère les versions  
 - Crée les tags  
 - Met à jour CHANGELOG.md  
 - Automatise les releases
 
-📁 Fichier
+### 📁 Fichier
 .github/workflows/release.yml
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Release Ops
 
 ---
 
-📏 8. SEMANTIC-PR — Discipline des Commits
+##$ 📏 8. SEMANTIC-PR
+- Discipline des Commits
 
-🎖️ Rôle
+### 🎖️ Rôle
 - Vérifie les messages de commit  
 - Imposent les préfixes militaires :  
   feat:, fix:, docs:, refactor:, security:, etc.
 
-📁 Fichier
-.github/workflows/semantic.yml
+### 📁 Fichier
+*.github/workflows/semantic.yml*
 
-🧩 Statut
+### 🧩 Statut
 Activé — Mode Discipline
 
 ---
 
-🧭 Tactical Bot Map
-
-`
+### 🧭 Tactical Bot Map
+```text
 [BOTPACK v1.0]
  ├── Update Ops
  │    ├── Dependabot
@@ -160,11 +165,11 @@ Activé — Mode Discipline
  └── Governance Ops
       ├── All-Contributors
       └── Semantic-PR
-`
+```
 
 ---
 
-🏅 Section d’Honneur
+### 🏅 Section d’Honneur
 
 > *Les bots tactiques assurent la stabilité, la sécurité et la discipline du projet.  
 > Ils opèrent silencieusement, mais leur impact est total.  
@@ -172,7 +177,7 @@ Activé — Mode Discipline
 
 ---
 
-📡 Coordination
+### 📡 Coordination
 
 Pour toute modification des bots :  
 → Ouvrir une issue GitHub  
@@ -181,4 +186,4 @@ Pour toute modification des bots :
 
 ---
 
-✔️ Fichier terminé
+> ✔️ Fichier terminé
