@@ -1,17 +1,18 @@
-# CODE OF CONDUCT — SiteWebPerso
+###### CODEOFCONDUCT.md >> markdown 
+# SiteWebPerso
 
-## Engagement
+### Engagement
 Les contributeurs doivent respecter :
 - courtoisie
 - respect
 - communication claire
 - absence de propos offensants
 
-## Comportements interdits
+### Comportements interdits
 - harcèlement
 - discrimination
 - spam
 - sabotage du projet
 
-## Application
+### Application
 Toute violation peut entraîner une exclusion du projet.
