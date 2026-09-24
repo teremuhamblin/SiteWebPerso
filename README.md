@@ -46,19 +46,19 @@ Ce projet est pensé pour :
 ### Pages du site
 
 1. ***index.html — Accueil***
-Page d’introduction avec section Hero, badges, actions rapides et présentation du projet.
+- Page d’introduction avec section Hero, badges, actions rapides et présentation du projet.
 
 2. ***actions.html — Produits / Catalogue***
-Catalogue statique moderne, prêt à être connecté à un back‑office ou API.
+- Catalogue statique moderne, prêt à être connecté à un back‑office ou API.
 
 3. ***aider.html — Aide / FAQ***
-Section d’assistance claire, structurée, avec FAQ lisible.
+- Section d’assistance claire, structurée, avec FAQ lisible.
 
 4. ***infos.html — Informations / Contact***
-Coordonnées, horaires, informations générales.
+- Coordonnées, horaires, informations générales.
 
 5. ***mentions-legales.html — Mentions légales***
-Bloc légal minimal, conforme aux exigences de base.
+- Bloc légal minimal, conforme aux exigences de base.
 
 ---
 
