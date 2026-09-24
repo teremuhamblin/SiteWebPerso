@@ -1,0 +1,40 @@
+name: Multi-Env Deploy
+
+on:
+  push:
+    branches: [ "main", "dev" ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare build
+        run: |
+          mkdir build
+          cp -r ./* build/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy-dev:
+    if: github.ref == 'refs/heads/dev'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
+
+  deploy-prod:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
