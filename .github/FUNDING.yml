@@ -1,25 +1,25 @@
 # FUNDING.yml - Configuration du financement pour SiteWebPerso v5.6
 
 # GitHub Sponsors (nom d'utilisateur GitHub)
-github: [teremu]  # Remplace par ton pseudo GitHub ou supprime si non utilisé
+#github: [teremu]  # Remplace par ton pseudo GitHub ou supprime si non utilisé
 
 # Patreon (slug de la page Patreon)
-patreon: teremu-sitewebperso   # Exemple : "mon-projet-web" (sans l'URL complète)
+#patreon: teremu-sitewebperso   # Exemple : "mon-projet-web" (sans l'URL complète)
 
 # Open Collective (slug du collectif)
-open_collective: sitewebperso  # Exemple : "mon-collectif"
+#open_collective: sitewebperso  # Exemple : "mon-collectif"
 
 # Ko-fi (identifiant Ko-fi)
-ko_fi: teremu                  # Exemple : "monkofi"
+#ko_fi: teremu                  # Exemple : "monkofi"
 
 # Buy Me a Coffee (slug du profil)
-buy_me_a_coffee: teremu        # Exemple : "monprofil"
+#buy_me_a_coffee: teremu        # Exemple : "monprofil"
 
 # Tipeee (slug de la page)
-tipeee: sitewebperso           # Exemple : "mon-projet-tipeee"
+#tipeee: sitewebperso           # Exemple : "mon-projet-tipeee"
 
 # Liberapay (nom d'utilisateur ou équipe)
-liberapay: teremu              # Exemple : "moncompte"
+#liberapay: teremu              # Exemple : "moncompte"
 
 # URLs personnalisées (page de dons, boutique, etc.)
 custom:
