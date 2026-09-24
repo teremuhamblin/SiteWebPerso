@@ -1,5 +1,5 @@
 # Dossier docs/
-Documentation interne du projet SiteWebPerso.
+- Documentation interne du projet *SiteWebPerso*
 
 Contient :
 - guides techniques
@@ -7,4 +7,4 @@ Contient :
 - informations internes
 - documents de versioning
 
-Signature : SG@Art — v5.6
+Signature : SG@Art — version stable
